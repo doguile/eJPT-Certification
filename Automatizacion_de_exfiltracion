@@ -1,0 +1,27 @@
+Automatice la enumeración de todas las rutas de exfiltración
+
+# git clone https://github.com/stufus/egresscheck-framework.git
+
+# cd egresscheck-framework/
+
+# python2 ecf.py
+
+egresschecker> set PORTS xxxx-xxxx
+PORTS => xxxx-xxxx (1001 ports)
+
+egresschecker> set TARGETIP 172.16.91.16 (tu_ip)
+TARGETIP => 172.16.91.16
+
+egresschecker> set SOURCEIP 172.16.91.100 (ip_destino)
+SOURCEIP => 172.16.91.100
+
+egresschecker> set PROTOCOL tcp
+PROTOCOL => TCP
+
+egresschecker> generate powershell-cmd
+
+El generate powershell-cmd se ejecuta para obtener un solo comando de PowerShell que nos ayudará a automatizar la evaluación del firewall.
+Este comando encriptado contiene código que hará que PowerShell intente acceder a todos los puertos del rango dado desde la máquina 172.16.91.100 en su máquina Kali.
+
+Antes de iniciar el proceso se transfiere a la maquina destinoo el archivo .bat creado en el directorio /tmp y se ejecuta como administrador y usando wireshark
+veremos que puerto le permite la conectividad saliente en el firewall de la máquina 172.16.91.100.
