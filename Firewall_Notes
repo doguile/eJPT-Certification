@@ -1,0 +1,4 @@
+Cuando un firewall, IDS o IPS esta en el lugar, se presentara el siguiente comportamiento:
+
++ Paquetes TCP SYN es enviado, pero no hay un TCP SYN/ACK de respuesta
++ Paquetes TCP SYN son enviados pero se recibe un TCP RST/ACK de respuesta 
