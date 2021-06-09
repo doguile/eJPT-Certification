@@ -1,0 +1,6 @@
+200 - OK
+301 - Moved permanently
+302 - Found (the resource is temporarily under another URI)
+40. - Forbidden
+404 - Not Found
+500 - Internal Server Error
