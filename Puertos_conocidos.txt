@@ -1,6 +1,6 @@
 Los puertos conocidos o Well-know ports van desde el puerto 0 - 1023
 
-SMTP - 25
+SMTP - 25                         
 
 SSH - 22
 
