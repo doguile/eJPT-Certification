@@ -1,2 +1,2 @@
-# eJPT-Certicación
+# eJPT-Certificación
 Conocimientos adquiridos y notas de preparación durante el estudio para el examen de certificación eJPT.
