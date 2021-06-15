@@ -14,3 +14,12 @@ Or even the service type is not recognized by an `?`
 
 `--reason` nmap flag will show an explanation of twhy a port is marked as open or closed
 
+### Masscan
+
++ Another interesting tool that can help you to discover a network via probing TCP ports
+
++ Designed to deal with large networks and to scan thousands of IP addresses at once
+
++ Like nmap but a lot faster, however is less accurate
+
++ Maybe best to use this for host discovery and then conduct a detailed scan with nmap against certain hosts
