@@ -1,5 +1,0 @@
-Herramienta para enumeracion de subdominios
-* dnsdumpster.com (GUI)
-* crt.sh (GUI)
-* sublist3r (CLI)
-* amass (CLI)
