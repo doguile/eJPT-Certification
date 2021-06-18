@@ -25,7 +25,7 @@ O incluso no se reconoce el tipo de servicio
 
 ## Masscan
 
-./masscan -p22,80,443,135 -Pn --rate=800 --banners 192.168.1.0/24 -e tap0 --router-ip 192.168.1.1 --echo > masscan.conf (redirigimos el comando al archivo.conf)
+`./masscan -p22,80,443,135 -Pn --rate=800 --banners 192.168.1.0/24 -e tap0 --router-ip 192.168.1.1 --echo > masscan.conf` (redirigimos el comando al archivo.conf)
 
 Lo podemos editar por si no queremos alguna flag
 
