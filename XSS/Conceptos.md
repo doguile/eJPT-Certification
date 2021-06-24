@@ -12,6 +12,8 @@ the vulnerable website.
 
 An input field of the HTTP Requests sent by the browser gets immediatly reflected to the output page
 
+`<script>alert('XSS');</script>`
+
 ### **PERSISTENT XSS ATTACKS**
 
 Persistent XSS attacks occurs when the **payload is sent to the vulnerable web server** and then **stored**
