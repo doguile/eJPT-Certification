@@ -61,6 +61,7 @@ Once we know that the machine has the File Server service running , we can enume
 
 ```python
 $ smbclient -L //X.X.X.X -N
+$ smbclient -L WORKGROUP -I x.x.x.x -N -U ""
 #-L: allows you to look at what services are available on a target.
 #-N: forces the tool to not ask for a passwd
 ```
